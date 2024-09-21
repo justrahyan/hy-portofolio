@@ -170,11 +170,6 @@
 }
 #projects .container .projects-certif .card .link-group a:hover {
   background-color: var(--white-hover);
-}
-#projects .container .projects-certif .card .link-group a:first-child {
-  font-size: 22px;
-}
-#projects .container .projects-certif .card .link-group a:last-child {
   font-size: 16px;
 }
 #projects .container .button-all {
@@ -211,13 +206,8 @@
   }
   #projects .container .projects-certif .card .link-group a {
     width: 35px;
-    height: 35px;
-  }
-  #projects .container .projects-certif .card .link-group a:first-child {
-    font-size: 18px;
-  }
-  #projects .container .projects-certif .card .link-group a:last-child {
     font-size: 14px;
+    height: 35px;
   }
   #projects .container .projects-certif .card .card-image {
     top: 65%;
