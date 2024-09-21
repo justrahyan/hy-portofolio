@@ -714,6 +714,10 @@ footer .container .footer-section .footer-end a {
     right: auto;
     top: 90%;
   }
+  #hero .container .hero-profile .profile-text p span {
+    display: inline-block;
+    animation: wave 1s ease-in-out infinite;
+  }
   #hero .container .hero-text h1 {
     font-size: 28px;
   }
@@ -731,6 +735,9 @@ footer .container .footer-section .footer-end a {
   }
   #about .container .about-certif .certif-heading {
     font-size: 14px;
+  }
+  #about .container .about-certif .slider-container .slider {
+    animation: slide-right 25s linear infinite;
   }
   #about .container .about-certif .card {
     height: auto;
@@ -846,6 +853,7 @@ footer .container .footer-section .footer-end a {
     transform: translateX(-50%);
   }
 }
+
 @keyframes up-down {
   0% {
     transform: translateY(0);
@@ -855,5 +863,23 @@ footer .container .footer-section .footer-end a {
   }
   100% {
     transform: translateY(0);
+  }
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(25deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-25deg);
+  }
+  100% {
+    transform: rotate(0deg);
   }
 }
