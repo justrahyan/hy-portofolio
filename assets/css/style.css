@@ -145,6 +145,10 @@ nav .container .navbar-collapse ul li a {
   font-size: 48px;
   margin-bottom: 4rem;
 }
+#hero .container .hero-text a {
+  transition: all 0.3s ease-in-out;
+  animation: up-down 2s linear infinite;
+}
 
 /* About Section */
 #about {
@@ -730,6 +734,7 @@ footer .container .footer-section .footer-end a {
   }
   #about .container .about-certif .card {
     height: auto;
+    min-width: 350px;
   }
   #about .container .about-certif .card .card-image {
     display: none;
@@ -783,15 +788,18 @@ footer .container .footer-section .footer-end a {
 }
 
 @media (max-width: 640px) {
+  #hero .container .hero-text {
+    width: 85%;
+  }
   #hero .container .hero-text h1 {
     font-size: 24px;
   }
   #skills .container .skills-card .card {
-    width: 45px;
-    height: 45px;
+    width: 60px;
+    height: 60px;
   }
   #skills .container .skills-card .card .icon {
-    font-size: 22px;
+    font-size: 26px;
   }
   #projects .container .projects-certif .card .link-group a {
     width: 35px;
@@ -809,7 +817,7 @@ footer .container .footer-section .footer-end a {
     text-align: center;
   }
   footer .container .footer-section .footer-end a {
-    font-size: 16px;
+    font-size: 20px;
   }
 }
 
@@ -836,5 +844,16 @@ footer .container .footer-section .footer-end a {
   }
   100% {
     transform: translateX(-50%);
+  }
+}
+@keyframes up-down {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px); /* Buat naik turun lebih jelas */
+  }
+  100% {
+    transform: translateY(0);
   }
 }
