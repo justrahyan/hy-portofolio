@@ -560,6 +560,7 @@ nav .container .navbar-collapse ul li a {
 #skills .container .skills-card .card {
   width: 95px;
   height: 95px;
+  padding: 1.2rem;
   border: 0.5px solid var(--white);
   background-color: transparent;
   display: flex;
@@ -567,48 +568,12 @@ nav .container .navbar-collapse ul li a {
   align-items: center;
   border-radius: 0.5rem;
   overflow: hidden;
-}
-#skills .container .skills-card .card .icon {
-  font-size: 48px;
-  color: var(--white);
+  filter: grayscale(100%);
   transition: all 0.3s ease-in-out;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
   cursor: pointer;
 }
-#skills .container .skills-card .card:hover .html {
-  color: var(--html);
-  background-color: var(--primary);
-}
-#skills .container .skills-card .card:hover .css {
-  color: var(--css);
-  background-color: var(--primary);
-}
-#skills .container .skills-card .card:hover .javascript {
-  color: var(--javascript);
-  background-color: var(--primary);
-}
-#skills .container .skills-card .card:hover .php {
-  color: var(--php);
-  background-color: var(--primary);
-}
-#skills .container .skills-card .card:hover .tailwind {
-  color: var(--tailwind);
-  background-color: var(--primary);
-}
-#skills .container .skills-card .card:hover .bootstrap {
-  color: var(--bootstrap);
-  background-color: var(--primary);
-}
-#skills .container .skills-card .card:hover .illustrator {
-  color: var(--illustrator);
-  background-color: var(--primary);
-}
-#skills .container .skills-card .card:hover .figma {
-  color: var(--figma);
+#skills .container .skills-card .card:hover {
+  filter: grayscale(0);
   background-color: var(--primary);
 }
 
@@ -1244,9 +1209,7 @@ footer .container .footer-section .footer-end a {
   #skills .container .skills-card .card {
     width: 65px;
     height: 65px;
-  }
-  #skills .container .skills-card .card .icon {
-    font-size: 28px;
+    padding: 0.75rem;
   }
   #projects .container .projects-certif .card .card-image {
     top: 60%;
@@ -1366,9 +1329,6 @@ footer .container .footer-section .footer-end a {
   #skills .container .skills-card .card {
     width: 60px;
     height: 60px;
-  }
-  #skills .container .skills-card .card .icon {
-    font-size: 26px;
   }
   #projects .container .projects-certif .card .link-group a {
     width: 35px;
