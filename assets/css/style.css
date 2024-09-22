@@ -1,6 +1,7 @@
 /* Color */
 :root {
   --primary: #262626;
+  --primary-hover: #303030;
   --secondary: #171717;
   --secondary-hover: #313131;
   --small-box: #3c3c3f;
@@ -15,6 +16,7 @@
   --bootstrap: #712cf9;
   --illustrator: #faa625;
   --figma: #0acf83;
+  --grey: #afafb0;
 }
 
 * {
@@ -191,10 +193,260 @@ nav .container .navbar-collapse ul li a {
   font-size: 20px;
   text-align: justify;
 }
+#about .container .about-edu-work {
+  margin-bottom: 4rem;
+}
+#about .container .about-edu-work .edu-work-heading {
+  color: var(--white);
+  font-size: 20px;
+  margin-bottom: 2rem;
+}
+#about .container .about-edu-work .edu-work-container .card {
+  width: 49%;
+  background-color: var(--primary);
+  border-radius: 10px;
+  border: 0.5px solid var(--white-shadow);
+  color: var(--white);
+  padding: 0.25rem;
+  position: relative;
+  cursor: default;
+  height: 100%;
+}
+#about .container .about-edu-work .edu-work-container .card .card-heading {
+  gap: 1rem;
+}
+#about .container .about-edu-work .edu-work-container .card .card-heading h5 {
+  margin-top: 8px;
+}
+#about
+  .container
+  .about-edu-work
+  .edu-work-container
+  .card
+  .card-heading
+  .card-icon {
+  width: 45px;
+  height: 45px;
+  background-color: var(--small-box);
+}
+#about .container .about-edu-work .edu-work-container .timeline {
+  position: relative;
+  list-style: none;
+  width: 100%;
+  margin-bottom: 0;
+}
+#about .container .about-edu-work .edu-work-container .timeline::before {
+  content: "";
+  position: absolute;
+  top: 35px;
+  bottom: 0;
+  width: 1px;
+  height: 220px;
+  background: var(--grey);
+  left: 21.5px;
+}
+#about .container .about-edu-work .edu-work-container .timeline-work::before {
+  content: "";
+  position: absolute;
+  top: 35px;
+  bottom: 0;
+  width: 1px;
+  height: 120px;
+  background: var(--grey);
+  left: 21.5px;
+}
+#about .container .about-edu-work .edu-work-container .timeline .timeline-item {
+  position: relative;
+  padding: 20px 0 20px 20px;
+  box-sizing: border-box;
+}
+#about
+  .container
+  .about-edu-work
+  .edu-work-container
+  .timeline
+  .timeline-item::before {
+  content: "";
+  position: absolute;
+  top: 35px;
+  width: 25px;
+  height: 25px;
+  background-color: var(--small-box);
+  border-radius: 50%;
+  left: -10px;
+  transform: translateX(-50%);
+}
+#about
+  .container
+  .about-edu-work
+  .edu-work-container
+  .timeline
+  .timeline-item::after {
+  content: "";
+  position: absolute;
+  top: 42px;
+  width: 10px;
+  height: 10px;
+  background-color: var(--grey);
+  border-radius: 50%;
+  left: -10px;
+  transform: translateX(-50%);
+}
+#about
+  .container
+  .about-edu-work
+  .edu-work-container
+  .timeline
+  .timeline-item
+  .edu-heading,
+#about
+  .container
+  .about-edu-work
+  .edu-work-container
+  .timeline
+  .timeline-item
+  .work-heading {
+  gap: 0.6rem;
+}
+#about
+  .container
+  .about-edu-work
+  .edu-work-container
+  .timeline
+  .timeline-item
+  .edu-logo {
+  max-width: 55px;
+  max-height: 55px;
+  background-color: var(--small-box);
+  overflow: hidden;
+  padding: 0.5rem;
+}
+#about
+  .container
+  .about-edu-work
+  .edu-work-container
+  .timeline
+  .timeline-item
+  .work-logo {
+  max-width: 55px;
+  max-height: 55px;
+  background-color: var(--white);
+  overflow: hidden;
+  padding: 0.5rem;
+}
+#about
+  .container
+  .about-edu-work
+  .edu-work-container
+  .timeline
+  .timeline-item
+  .smkn-gto
+  img {
+  width: 80%;
+  object-fit: cover;
+}
+#about
+  .container
+  .about-edu-work
+  .edu-work-container
+  .timeline
+  .timeline-item
+  .lain
+  img {
+  width: 100%;
+  object-fit: cover;
+}
+#about
+  .container
+  .about-edu-work
+  .edu-work-container
+  .timeline
+  .timeline-item
+  .work-logo
+  img {
+  width: 150%;
+  object-fit: cover;
+}
+#about
+  .container
+  .about-edu-work
+  .edu-work-container
+  .timeline
+  .timeline-item
+  .edu-text
+  h4,
+#about
+  .container
+  .about-edu-work
+  .edu-work-container
+  .timeline
+  .timeline-item
+  .work-text
+  h4 {
+  font-size: 18px;
+}
+#about
+  .container
+  .about-edu-work
+  .edu-work-container
+  .timeline
+  .timeline-item
+  .edu-text
+  p,
+#about
+  .container
+  .about-edu-work
+  .edu-work-container
+  .timeline
+  .timeline-item
+  .work-text
+  p {
+  font-size: 14px;
+}
+#about
+  .container
+  .about-edu-work
+  .edu-work-container
+  .timeline
+  .timeline-item
+  .edu-time,
+#about
+  .container
+  .about-edu-work
+  .edu-work-container
+  .timeline
+  .timeline-item
+  .work-time {
+  background-image: linear-gradient(
+    to right,
+    var(--small-box),
+    var(--primary-hover)
+  );
+  width: auto;
+  height: auto;
+  padding: 0.5rem 0.75rem;
+}
+#about
+  .container
+  .about-edu-work
+  .edu-work-container
+  .timeline
+  .timeline-item
+  .edu-time
+  p,
+#about
+  .container
+  .about-edu-work
+  .edu-work-container
+  .timeline
+  .timeline-item
+  .work-time
+  p {
+  font-size: 12px;
+}
 #about .container .about-certif p {
   color: var(--white);
   font-size: 20px;
-  text-align: left;
 }
 /* About Certificates Slider */
 #about .container .about-certif .slider-container {
@@ -634,6 +886,125 @@ footer .container .footer-section .footer-end a {
   #about .container .about-desc p {
     font-size: 16px;
   }
+  #about .container .about-edu-work .edu-work-container {
+    gap: 1rem;
+  }
+  #about .container .about-edu-work .edu-work-container .timeline::before {
+    height: 220px;
+  }
+  #about .container .about-edu-work .edu-work-container .timeline-work::before {
+    height: 120px;
+  }
+  #about .container .about-edu-work .edu-work-container .card-heading h5 {
+    font-size: 16px;
+  }
+  #about
+    .container
+    .about-edu-work
+    .edu-work-container
+    .timeline
+    .timeline-item {
+    position: relative;
+    padding: 20px 0 20px 20px;
+    box-sizing: border-box;
+  }
+  #about
+    .container
+    .about-edu-work
+    .edu-work-container
+    .timeline
+    .timeline-item::before {
+    top: 30px;
+    width: 25px;
+    height: 25px;
+  }
+  #about
+    .container
+    .about-edu-work
+    .edu-work-container
+    .timeline
+    .timeline-item::after {
+    top: 37px;
+    width: 10px;
+    height: 10px;
+  }
+  #about
+    .container
+    .about-edu-work
+    .edu-work-container
+    .timeline
+    .timeline-item
+    .edu-logo {
+    max-width: 45px;
+    max-height: 45px;
+  }
+  #about
+    .container
+    .about-edu-work
+    .edu-work-container
+    .timeline
+    .timeline-item
+    .work-logo {
+    max-width: 45px;
+    max-height: 45px;
+  }
+  #about
+    .container
+    .about-edu-work
+    .edu-work-container
+    .timeline
+    .timeline-item
+    .edu-text
+    h4,
+  #about
+    .container
+    .about-edu-work
+    .edu-work-container
+    .timeline
+    .timeline-item
+    .work-text
+    h4 {
+    font-size: 16px;
+  }
+  #about
+    .container
+    .about-edu-work
+    .edu-work-container
+    .timeline
+    .timeline-item
+    .edu-text
+    p,
+  #about
+    .container
+    .about-edu-work
+    .edu-work-container
+    .timeline
+    .timeline-item
+    .work-text
+    p {
+    font-size: 12px;
+  }
+  #about
+    .container
+    .about-edu-work
+    .edu-work-container
+    .timeline
+    .timeline-item
+    .edu-time
+    p,
+  #about
+    .container
+    .about-edu-work
+    .edu-work-container
+    .timeline
+    .timeline-item
+    .work-time
+    p {
+    font-size: 10px;
+  }
+  #about .container .about-edu-work .edu-work-container .card {
+    width: 100%;
+  }
   #about .container .about-certif .slider-container .slider {
     width: calc(60% * 10);
   }
@@ -755,6 +1126,121 @@ footer .container .footer-section .footer-end a {
   #about .container .about-certif .card .badge {
     font-size: 8px;
   }
+  #about .container .about-edu-work .edu-work-container .card-heading h5 {
+    font-size: 14px;
+  }
+  #about .container .about-edu-work .edu-work-container .timeline::before {
+    height: 190px;
+  }
+  #about .container .about-edu-work .edu-work-container .timeline-work::before {
+    height: 100px;
+  }
+  #about
+    .container
+    .about-edu-work
+    .edu-work-container
+    .timeline
+    .timeline-item::before {
+    top: 28px;
+    width: 15px;
+    height: 15px;
+  }
+  #about
+    .container
+    .about-edu-work
+    .edu-work-container
+    .timeline
+    .timeline-item::after {
+    top: 33px;
+    width: 6px;
+    height: 6px;
+  }
+  #about
+    .container
+    .about-edu-work
+    .edu-work-container
+    .timeline
+    .timeline-item
+    .edu-logo {
+    max-width: 35px;
+    max-height: 35px;
+    padding: 0.25rem;
+  }
+  #about
+    .container
+    .about-edu-work
+    .edu-work-container
+    .timeline
+    .timeline-item
+    .work-logo
+    img {
+    width: 120%;
+  }
+  #about
+    .container
+    .about-edu-work
+    .edu-work-container
+    .timeline
+    .timeline-item
+    .work-logo {
+    max-width: 35px;
+    max-height: 35px;
+    padding: 0.25rem;
+  }
+  #about
+    .container
+    .about-edu-work
+    .edu-work-container
+    .timeline
+    .timeline-item
+    .edu-text
+    h4,
+  #about
+    .container
+    .about-edu-work
+    .edu-work-container
+    .timeline
+    .timeline-item
+    .work-text
+    h4 {
+    font-size: 14px;
+  }
+  #about
+    .container
+    .about-edu-work
+    .edu-work-container
+    .timeline
+    .timeline-item
+    .edu-text
+    p,
+  #about
+    .container
+    .about-edu-work
+    .edu-work-container
+    .timeline
+    .timeline-item
+    .work-text
+    p {
+    font-size: 10px;
+  }
+  #about
+    .container
+    .about-edu-work
+    .edu-work-container
+    .timeline
+    .timeline-item
+    .edu-time
+    p,
+  #about
+    .container
+    .about-edu-work
+    .edu-work-container
+    .timeline
+    .timeline-item
+    .work-time
+    p {
+    font-size: 8px;
+  }
   #skills .container .skills-card .card {
     width: 65px;
     height: 65px;
@@ -801,6 +1287,82 @@ footer .container .footer-section .footer-end a {
   #hero .container .hero-text h1 {
     font-size: 24px;
   }
+  #about .container .about-edu-work .edu-work-container .timeline::before {
+    height: 250px;
+  }
+  #about .container .about-edu-work .edu-work-container .timeline-work::before {
+    height: 125px;
+  }
+  #about
+    .container
+    .about-edu-work
+    .edu-work-container
+    .timeline
+    .timeline-item
+    .edu-text
+    h4,
+  #about
+    .container
+    .about-edu-work
+    .edu-work-container
+    .timeline
+    .timeline-item
+    .work-text
+    h4 {
+    font-size: 12px;
+  }
+  #about
+    .container
+    .about-edu-work
+    .edu-work-container
+    .timeline
+    .timeline-item
+    .edu-text,
+  #about
+    .container
+    .about-edu-work
+    .edu-work-container
+    .timeline
+    .timeline-item
+    .work-text {
+    width: 100%;
+  }
+  #about
+    .container
+    .about-edu-work
+    .edu-work-container
+    .timeline
+    .timeline-item
+    .edu-text
+    p,
+  #about
+    .container
+    .about-edu-work
+    .edu-work-container
+    .timeline
+    .timeline-item
+    .work-text
+    p {
+    font-size: 10px;
+  }
+  #about
+    .container
+    .about-edu-work
+    .edu-work-container
+    .timeline
+    .timeline-item
+    .edu-time
+    p,
+  #about
+    .container
+    .about-edu-work
+    .edu-work-container
+    .timeline
+    .timeline-item
+    .work-time
+    p {
+    font-size: 8px;
+  }
   #skills .container .skills-card .card {
     width: 60px;
     height: 60px;
@@ -834,6 +1396,12 @@ footer .container .footer-section .footer-end a {
   }
 }
 
+@media screen and (max-width: 513px) {
+  #about .container .about-edu-work .edu-work-container .timeline-work::before {
+    height: 120px;
+  }
+}
+
 @media screen and (max-width: 452px) {
   #skills .container .skills-card {
     display: flex;
@@ -841,6 +1409,21 @@ footer .container .footer-section .footer-end a {
     flex-direction: row;
     justify-content: center;
     gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  #about .container .about-edu-work .edu-work-container .timeline::before {
+    height: 240px;
+  }
+
+  #about .container .about-edu-work .edu-work-container .timeline-work::before {
+    height: 120px;
+  }
+}
+@media screen and (max-width: 377px) {
+  #about .container .about-edu-work .edu-work-container .timeline-work::before {
+    height: 120px;
   }
 }
 
