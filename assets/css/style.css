@@ -343,6 +343,22 @@ nav .container .navbar-collapse ul li a {
   .edu-work-container
   .timeline
   .timeline-item
+  .edu-text,
+#about
+  .container
+  .about-edu-work
+  .edu-work-container
+  .timeline
+  .timeline-item
+  .work-text {
+  width: auto;
+}
+#about
+  .container
+  .about-edu-work
+  .edu-work-container
+  .timeline
+  .timeline-item
   .lain
   img {
   width: 100%;
@@ -1119,8 +1135,8 @@ footer .container .footer-section .footer-end a {
     .timeline
     .timeline-item
     .edu-logo {
-    max-width: 35px;
-    max-height: 35px;
+    max-width: 45px;
+    max-height: 45px;
     padding: 0.25rem;
   }
   #about
@@ -1140,8 +1156,8 @@ footer .container .footer-section .footer-end a {
     .timeline
     .timeline-item
     .work-logo {
-    max-width: 35px;
-    max-height: 35px;
+    max-width: 45px;
+    max-height: 45px;
     padding: 0.25rem;
   }
   #about
