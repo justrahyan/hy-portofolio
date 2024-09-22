@@ -1398,6 +1398,12 @@ footer .container .footer-section .footer-end a {
   }
 }
 
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  #about .container .about-edu-work .edu-work-container .timeline-work::before {
+    height: 150px;
+  }
+}
+
 /* Animation */
 @keyframes slide-right {
   0% {
