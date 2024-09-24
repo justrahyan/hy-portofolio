@@ -1106,7 +1106,7 @@ footer .container .footer-section .footer-end a {
     font-size: 14px;
   }
   #about .container .about-edu-work .edu-work-container .timeline::before {
-    height: 190px;
+    height: 200px;
   }
   #about .container .about-edu-work .edu-work-container .timeline-work::before {
     height: 100px;
@@ -1117,7 +1117,7 @@ footer .container .footer-section .footer-end a {
     .edu-work-container
     .timeline
     .timeline-item::before {
-    top: 28px;
+    top: 35px;
     width: 15px;
     height: 15px;
   }
@@ -1127,7 +1127,7 @@ footer .container .footer-section .footer-end a {
     .edu-work-container
     .timeline
     .timeline-item::after {
-    top: 33px;
+    top: 40px;
     width: 6px;
     height: 6px;
   }
