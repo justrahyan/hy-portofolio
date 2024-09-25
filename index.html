@@ -60,6 +60,9 @@
       type="text/css"
       href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
     />
+
+    <!-- Scroll Reveal JS -->
+    <script src="https://unpkg.com/scrollreveal"></script>
   </head>
   <body style="background-color: #171717">
     <nav class="navbar navbar-expand-lg">
@@ -163,7 +166,7 @@
           <div
             class="edu-work-container d-flex flex-wrap justify-content-between"
           >
-            <div class="card rounded rounded-3">
+            <div class="card rounded rounded-3 education">
               <div class="card-body g-0">
                 <div class="card-content">
                   <div>
@@ -261,7 +264,7 @@
                 </div>
               </div>
             </div>
-            <div class="card rounded rounded-3">
+            <div class="card rounded rounded-3 work-experience">
               <div class="card-body g-0">
                 <div class="card-content">
                   <div>
@@ -597,56 +600,56 @@
           <hr class="hr-custom" />
         </div>
         <div class="skills-card">
-          <div class="card">
+          <div class="card html">
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
               alt="HTML"
               title="HTML"
             />
           </div>
-          <div class="card">
+          <div class="card css">
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
               alt="CSS"
               title="CSS"
             />
           </div>
-          <div class="card">
+          <div class="card javascript">
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
               alt="JavaScript"
               title="JavaScript"
             />
           </div>
-          <div class="card">
+          <div class="card php">
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg"
               alt="PHP"
               title="PHP"
             />
           </div>
-          <div class="card">
+          <div class="card tailwindcss">
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
               alt="Tailwind CSS"
               title="Tailwind CSS"
             />
           </div>
-          <div class="card">
+          <div class="card bootstrap">
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg"
               alt="Bootstrap"
               title="Bootstrap"
             />
           </div>
-          <div class="card">
+          <div class="card adobe-illustrator">
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/illustrator/illustrator-plain.svg"
               alt="Adobe Illustrator"
               title="Adobe Illustrator"
             />
           </div>
-          <div class="card">
+          <div class="card figma">
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg"
               alt="Figma"
@@ -668,7 +671,7 @@
           <hr class="hr-custom" />
         </div>
         <div class="projects-certif">
-          <div class="card rounded rounded-3">
+          <div class="card rounded rounded-3 card-1">
             <div class="card-body">
               <div class="card-content">
                 <h5 class="card-title fw-bold">Sulselku</h5>
@@ -707,7 +710,7 @@
               </div>
             </div>
           </div>
-          <div class="card rounded rounded-3">
+          <div class="card rounded rounded-3 card-2">
             <div class="card-body">
               <div class="card-content">
                 <h5 class="card-title fw-bold">Eksplorin</h5>
@@ -744,7 +747,7 @@
               </div>
             </div>
           </div>
-          <div class="card rounded rounded-3">
+          <div class="card rounded rounded-3 card-3">
             <div class="card-body">
               <div class="card-content">
                 <h5 class="card-title fw-bold">Bookshelf Apps</h5>
@@ -935,5 +938,162 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- Main JS -->
     <script src="assets/js/script.js"></script>
+
+    <!-- Scroll Reveal JS -->
+    <script>
+      ScrollReveal({
+        reset: false,
+        distance: "60px",
+        duration: 2500,
+        delay: 400,
+      });
+
+      ScrollReveal().reveal(".navbar", {
+        delay: 150,
+        duration: 1500,
+        origin: "top",
+      });
+
+      ScrollReveal().reveal("#hero", {
+        delay: 150,
+        duration: 1500,
+        origin: "bottom",
+      });
+
+      ScrollReveal().reveal(
+        ".about-header, .skills-header, .projects-header, .contact-header",
+        {
+          delay: 150,
+          duration: 1500,
+          origin: "top",
+        }
+      );
+
+      ScrollReveal().reveal(".about-desc", {
+        delay: 350,
+        duration: 1500,
+        origin: "bottom",
+      });
+
+      ScrollReveal().reveal(".edu-work-heading", {
+        delay: 550,
+        duration: 1500,
+        origin: "top",
+      });
+
+      ScrollReveal().reveal(".education", {
+        delay: 850,
+        duration: 1500,
+        origin: "bottom",
+      });
+
+      ScrollReveal().reveal(".work-experience", {
+        delay: 1350,
+        duration: 1500,
+        origin: "bottom",
+      });
+
+      ScrollReveal().reveal(".certif-heading", {
+        delay: 550,
+        duration: 1500,
+        origin: "top",
+      });
+
+      ScrollReveal().reveal(".slider-container", {
+        delay: 950,
+        duration: 1500,
+        origin: "bottom",
+      });
+
+      ScrollReveal().reveal(".html", {
+        delay: 350,
+        duration: 1500,
+        origin: "bottom",
+      });
+
+      ScrollReveal().reveal(".css", {
+        delay: 550,
+        duration: 1500,
+        origin: "bottom",
+      });
+
+      ScrollReveal().reveal(".javascript", {
+        delay: 750,
+        duration: 1500,
+        origin: "bottom",
+      });
+
+      ScrollReveal().reveal(".php", {
+        delay: 950,
+        duration: 1500,
+        origin: "bottom",
+      });
+
+      ScrollReveal().reveal(".tailwindcss", {
+        delay: 1050,
+        duration: 1500,
+        origin: "bottom",
+      });
+
+      ScrollReveal().reveal(".bootstrap", {
+        delay: 1250,
+        duration: 1500,
+        origin: "bottom",
+      });
+
+      ScrollReveal().reveal(".adobe-illustrator", {
+        delay: 1450,
+        duration: 1500,
+        origin: "bottom",
+      });
+
+      ScrollReveal().reveal(".figma", {
+        delay: 1750,
+        duration: 1500,
+        origin: "bottom",
+      });
+
+      ScrollReveal().reveal(".card-1", {
+        delay: 550,
+        duration: 1500,
+        origin: "bottom",
+      });
+
+      ScrollReveal().reveal(".card-2", {
+        delay: 750,
+        duration: 1500,
+        origin: "bottom",
+      });
+
+      ScrollReveal().reveal(".card-3", {
+        delay: 950,
+        duration: 1500,
+        origin: "bottom",
+      });
+
+      ScrollReveal().reveal(".button-all", {
+        delay: 1250,
+        duration: 1500,
+        origin: "bottom",
+      });
+
+      ScrollReveal().reveal(".heading-content", {
+        delay: 650,
+        duration: 1500,
+        origin: "left",
+      });
+
+      ScrollReveal().reveal(".form-content", {
+        delay: 850,
+        duration: 1500,
+        origin: "right",
+      });
+
+      ScrollReveal().reveal(".footer-section", {
+        delay: 850,
+        duration: 1500,
+        origin: "bottom",
+      });
+    </script>
   </body>
 </html>
