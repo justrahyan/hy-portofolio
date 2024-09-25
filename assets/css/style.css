@@ -618,9 +618,9 @@ nav .container .navbar-collapse ul li a {
   background: rgb(68, 9, 151);
   background: radial-gradient(
     circle,
-    rgba(122, 126, 178, 0.8) 0%,
-    rgba(82, 85, 131, 0.8) 45%,
-    rgba(44, 46, 83, 0.8) 100%
+    rgba(122, 126, 178, 0.4) 0%,
+    rgba(82, 85, 131, 0.4) 45%,
+    rgba(44, 46, 83, 0.4) 100%
   );
 }
 #skills .container .skills-card .tailwindcss:hover {
@@ -648,9 +648,9 @@ nav .container .navbar-collapse ul li a {
   background: rgb(146, 134, 10);
   background: radial-gradient(
     circle,
-    rgba(172, 159, 9, 0.8) 12%,
-    rgba(187, 115, 9, 0.8) 35%,
-    rgba(112, 48, 8, 0.8) 100%
+    rgba(172, 159, 9, 0.4) 12%,
+    rgba(187, 115, 9, 0.4) 35%,
+    rgba(112, 48, 8, 0.4) 100%
   );
 }
 #skills .container .skills-card .figma:hover {
@@ -1330,9 +1330,9 @@ footer .container .footer-section .footer-end a {
     background: rgb(68, 9, 151);
     background: radial-gradient(
       circle,
-      rgba(122, 126, 178, 0.8) 0%,
-      rgba(82, 85, 131, 0.8) 45%,
-      rgba(44, 46, 83, 0.8) 100%
+      rgba(122, 126, 178, 0.4) 0%,
+      rgba(82, 85, 131, 0.4) 45%,
+      rgba(44, 46, 83, 0.4) 100%
     );
   }
   #skills .container .skills-card .tailwindcss {
@@ -1357,9 +1357,9 @@ footer .container .footer-section .footer-end a {
     background: rgb(146, 134, 10);
     background: radial-gradient(
       circle,
-      rgba(172, 159, 9, 0.8) 12%,
-      rgba(187, 115, 9, 0.8) 35%,
-      rgba(112, 48, 8, 0.8) 100%
+      rgba(172, 159, 9, 0.4) 12%,
+      rgba(187, 115, 9, 0.4) 35%,
+      rgba(112, 48, 8, 0.4) 100%
     );
   }
   #skills .container .skills-card .figma {
