@@ -943,20 +943,14 @@
     <script>
       ScrollReveal({
         reset: false,
-        duration: 2500,
-        delay: 400,
-      });
-
-      ScrollReveal().reveal(".navbar", {
-        delay: 150,
-        duration: 1500,
-        origin: "top",
+        distance: "50px",
       });
 
       ScrollReveal().reveal("#hero", {
         delay: 150,
         duration: 1500,
         origin: "bottom",
+        reset: true,
       });
 
       ScrollReveal().reveal(
@@ -1079,13 +1073,13 @@
       ScrollReveal().reveal(".heading-content", {
         delay: 650,
         duration: 1500,
-        origin: "left",
+        origin: "bottom",
       });
 
       ScrollReveal().reveal(".form-content", {
         delay: 850,
         duration: 1500,
-        origin: "right",
+        origin: "bottom",
       });
 
       ScrollReveal().reveal(".footer-section", {
