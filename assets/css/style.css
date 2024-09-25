@@ -1518,7 +1518,7 @@ footer .container .footer-section .footer-end a {
 
 @media screen and (max-width: 513px) {
   #about .container .about-edu-work .edu-work-container .timeline-work::before {
-    height: 120px;
+    height: 130px;
   }
 }
 
@@ -1534,16 +1534,16 @@ footer .container .footer-section .footer-end a {
 
 @media screen and (max-width: 390px) {
   #about .container .about-edu-work .edu-work-container .timeline::before {
-    height: 240px;
+    height: 250px;
   }
 
   #about .container .about-edu-work .edu-work-container .timeline-work::before {
-    height: 120px;
+    height: 130px;
   }
 }
 @media screen and (max-width: 377px) {
   #about .container .about-edu-work .edu-work-container .timeline-work::before {
-    height: 120px;
+    height: 130px;
   }
 }
 
