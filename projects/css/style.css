@@ -209,12 +209,32 @@
   #projects .container .projects-certif {
     grid-template-columns: 1fr;
   }
-  #projects .container .projects-certif .card .link-group a {
-    width: 35px;
-    font-size: 14px;
-    height: 35px;
-  }
   #projects .container .projects-certif .card .card-image {
     top: 65%;
+  }
+}
+
+@media (max-width: 640px) {
+  #projects .container .projects-certif .card .link-group a {
+    width: 35px;
+    height: 35px;
+  }
+  #projects .container .projects-certif .card .link-group a:first-child {
+    font-size: 18px;
+  }
+  #projects .container .projects-certif .card .link-group a:last-child {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1199px) {
+  #projects .container .projects-certif .card {
+    height: 670px;
+  }
+}
+
+@media screen and (min-width: 1120px) and (max-width: 1399px) {
+  #projects .container .projects-certif .card {
+    height: 630px;
   }
 }

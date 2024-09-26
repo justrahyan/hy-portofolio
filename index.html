@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JustRahyan Portofolio</title>
+    <title>Rahyan's Portofolio</title>
 
     <!-- Main CSS -->
     <link rel="stylesheet" href="assets/css/style.css" />
@@ -125,9 +125,9 @@
           </h1>
           <a
             href="https://drive.google.com/file/d/1G4agy3Pus_B7yPwiR5kC_5YM-8yld9z4/view?usp=sharing"
-            class="btn btn-white rounded-pill fw-bold"
+            class="btn btn-resume rounded-pill fw-bold"
             target="_blank"
-            ><i class="fa-regular fa-file-lines"></i>My Resume</a
+            ><i class="fa-solid fa-file-lines"></i>My Resume</a
           >
         </div>
       </div>
@@ -144,14 +144,14 @@
           <hr class="hr-custom" />
         </div>
         <div class="about-desc">
-          <p>
+          <p class="about-desc-1">
             Hi there! 👋 I’m Muhammad Rahyan Noorfauzan, a Computer Engineering
             student at State University of Makassar with a passion for Front-End
             Web Development and UI Design. With over 3 years of experience in
             this field, I’ve worked on various projects, focusing on creating
             visually appealing, clean, and user-friendly designs.
           </p>
-          <p>
+          <p class="about-desc-2">
             I am committed to crafting interfaces that are not only
             aesthetically pleasing but also functional, ensuring an optimal user
             experience. Each project I handle is driven by a passion for
@@ -234,7 +234,7 @@
                         <li class="timeline-item">
                           <div class="edu-heading d-flex">
                             <div
-                              class="edu-logo lain rounded-3 d-flex align-items-center justify-content-center"
+                              class="edu-logo unm rounded-3 d-flex align-items-center justify-content-center"
                             >
                               <img
                                 src="assets/img/eduwork/logo-unm-makassar.svg"
@@ -962,8 +962,14 @@
         }
       );
 
-      ScrollReveal().reveal(".about-desc", {
+      ScrollReveal().reveal(".about-desc-1", {
         delay: 350,
+        duration: 1500,
+        origin: "bottom",
+      });
+
+      ScrollReveal().reveal(".about-desc-2", {
+        delay: 550,
         duration: 1500,
         origin: "bottom",
       });
