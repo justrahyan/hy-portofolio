@@ -129,7 +129,7 @@ nav .container .navbar-collapse ul li a {
   transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
-#hero .container .hero-profile .profile-text:hover {
+#hero .container .hero-profile .profile-img:hover + .profile-text {
   rotate: 10deg;
 }
 #hero .container .hero-profile .profile-text p {
