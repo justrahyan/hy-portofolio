@@ -1380,6 +1380,14 @@ footer .container .footer-section .footer-end a {
       rgba(41, 35, 6, 0.8) 100%
     );
   }
+  #skills .container .skills-card .reactjs{
+  background: radial-gradient(
+    circle,
+    rgba(76, 182, 211, 0.9) 10%,
+    rgba(48, 140, 180, 0.85) 45%,
+    rgba(0, 57, 87, 0.8) 100%
+  );
+}
   #skills .container .skills-card .php {
     background: rgb(68, 9, 151);
     background: radial-gradient(
