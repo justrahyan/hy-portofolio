@@ -695,6 +695,16 @@ nav .container .navbar-collapse ul li a {
     rgba(55, 55, 125, 0.8) 100%
   );
 }
+#skills .container .skills-card .laravel:hover {
+  filter: grayscale(0);
+  background: rgb(255, 45, 32);
+  background: linear-gradient(
+    200deg,
+    rgba(255, 45, 32, 0.9) 10%,
+    rgba(220, 50, 40, 0.6) 45%,
+    rgba(150, 20, 15, 0.3) 100%
+  );
+}
 
 /* Projects Section */
 #projects {
@@ -1431,6 +1441,15 @@ footer .container .footer-section .footer-end a {
       rgba(69, 8, 147, 0.8) 0%,
       rgba(20, 20, 40, 0.8) 85%,
       rgba(55, 55, 125, 0.8) 100%
+    );
+  }
+  #skills .container .skills-card .laravel {
+    background: rgb(255, 45, 32);
+    background: linear-gradient(
+      200deg,
+      rgba(255, 45, 32, 0.9) 10%,
+      rgba(220, 50, 40, 0.6) 45%,
+      rgba(150, 20, 15, 0.3) 100%
     );
   }
   #projects .container .projects-certif .card .card-image {
