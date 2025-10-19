@@ -258,7 +258,7 @@ nav .container .navbar-collapse ul li a {
   top: 35px;
   bottom: 0;
   width: 1px;
-  height: 120px;
+  height: 220px;
   background: var(--grey);
   left: 21.5px;
 }
@@ -987,7 +987,7 @@ footer .container .footer-section .footer-end a {
     height: 220px;
   }
   #about .container .about-edu-work .edu-work-container .timeline-work::before {
-    height: 120px;
+    height: 220px;
   }
   #about .container .about-edu-work .edu-work-container .card-heading h5 {
     font-size: 16px;
@@ -1249,7 +1249,7 @@ footer .container .footer-section .footer-end a {
     height: 200px;
   }
   #about .container .about-edu-work .edu-work-container .timeline-work::before {
-    height: 100px;
+    height: 200px;
   }
   #about
     .container
@@ -1495,7 +1495,7 @@ footer .container .footer-section .footer-end a {
     height: 250px;
   }
   #about .container .about-edu-work .edu-work-container .timeline-work::before {
-    height: 125px;
+    height: 250px;
   }
   #about
     .container
@@ -1597,11 +1597,11 @@ footer .container .footer-section .footer-end a {
   }
 }
 
-@media screen and (max-width: 513px) {
+/* @media screen and (max-width: 513px) {
   #about .container .about-edu-work .edu-work-container .timeline-work::before {
     height: 130px;
   }
-}
+} */
 
 @media screen and (max-width: 452px) {
   #skills .container .skills-card {
@@ -1619,7 +1619,7 @@ footer .container .footer-section .footer-end a {
   }
 
   #about .container .about-edu-work .edu-work-container .timeline-work::before {
-    height: 130px;
+    height: 250px;
   }
 }
 @media screen and (max-width: 377px) {
