@@ -258,7 +258,7 @@ nav .container .navbar-collapse ul li a {
   top: 35px;
   bottom: 0;
   width: 1px;
-  height: 220px;
+  height: 320px;
   background: var(--grey);
   left: 21.5px;
 }
@@ -987,7 +987,7 @@ footer .container .footer-section .footer-end a {
     height: 220px;
   }
   #about .container .about-edu-work .edu-work-container .timeline-work::before {
-    height: 220px;
+    height: 320px;
   }
   #about .container .about-edu-work .edu-work-container .card-heading h5 {
     font-size: 16px;
@@ -1249,7 +1249,7 @@ footer .container .footer-section .footer-end a {
     height: 200px;
   }
   #about .container .about-edu-work .edu-work-container .timeline-work::before {
-    height: 200px;
+    height: 300px;
   }
   #about
     .container
@@ -1495,7 +1495,7 @@ footer .container .footer-section .footer-end a {
     height: 250px;
   }
   #about .container .about-edu-work .edu-work-container .timeline-work::before {
-    height: 250px;
+    height: 370px;
   }
   #about
     .container
