@@ -131,6 +131,9 @@
 }
 #projects .container .projects-certif .card .badge-group {
   width: 100%;
+  row-gap: 0.4rem !important;
+  column-gap: 0.4rem !important;
+  margin-bottom: 1rem;
   cursor: default;
 }
 #projects .container .projects-certif .card .badge-group .badge:hover {
